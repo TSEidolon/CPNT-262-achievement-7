@@ -9,27 +9,31 @@
   </div>
   <div class="body-content">
     <div class="card-container">
+    <!-- Remove the :tag if you dont need it -->
     <Card 
     :title="products[0].title"
     :bgtext ="products[0].bgtext"
     :src ="products[0].src"
     :button ="products[0].button"
-    :tag ="products[0].tag"
+    :tag ="products[0].tag"  
     />
+
     <Card 
     :title="products[1].title"
     :bgtext ="products[1].bgtext"
     :src ="products[1].src"
     :button ="products[1].button"
-
+    :tag ="products[1].tag"
     />
+
     <Card 
     :title="products[2].title"
     :bgtext ="products[2].bgtext"
     :src ="products[2].src"
     :button ="products[2].button"
-    
+    :tag ="products[2].tag"
     />
+
   </div>
   </div>
   <div class="footer-content">
