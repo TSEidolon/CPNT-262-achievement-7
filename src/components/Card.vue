@@ -5,8 +5,7 @@
     <h3 class="card-item-title"> {{props.title}}</h3>
     <p class="card-item-text">{{props.bgtext}}</p>
     <button class="card-item-button"> {{props.button}} &rarr; </button>
-
-    <!-- <p v-if="cardTag"> {{props.tag}} </p> -->
+    <p class="card-item-tag" v-if="props.tag"> {{props.tag}} </p>
   </div>
 </template>
 
@@ -18,16 +17,10 @@ import {defineProps} from 'vue';
   button: InputEvent,
   bgtext: String,
   src: Object,
-  // tag: Array,
+  tag: String,
 })
 
-// let cardTag = () => {
-//   if (props.tag.length > 0) {
-//     cardTag === true
-//   } else {
-//     cardTag === false
-//   }
-// }
+
   
 
 </script>
@@ -94,5 +87,10 @@ import {defineProps} from 'vue';
   color: var(--primary-color);
   word-spacing: 0.5rem;
 
+}
+
+.card-item-tag {
+  color: var(--tertiary-color);
+  font-size: 1rem;
 }
 </style>

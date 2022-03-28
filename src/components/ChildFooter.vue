@@ -16,14 +16,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    margin-top: 1rem;
-  }
-  @media (max-width: 1800px) {
-    .footerContainer {
-      position: relative;
-      bottom: 0;
-    }
-    
+    margin-top: auto;
   }
 
 </style>
