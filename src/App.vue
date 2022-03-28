@@ -105,6 +105,7 @@ html {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  padding: 10px;
 }
 
 .footer-content {
