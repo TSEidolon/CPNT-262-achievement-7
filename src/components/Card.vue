@@ -1,7 +1,6 @@
 <template>
   <div class ="card-item-container">
     <img :src="props.src" class="card-item-image">
-
     <h3 class="card-item-title"> {{props.title}}</h3>
     <p class="card-item-text">{{props.bgtext}}</p>
     <button class="card-item-button"> {{props.button}} &rarr; </button>

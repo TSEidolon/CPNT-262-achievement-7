@@ -56,14 +56,14 @@ const products = ([
           title: 'Forest Two',
           button: 'More',
           bgtext: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur.',
-          src: require('./components/assets/forestOne.jpg'),
+          src: require('./components/assets/forestTwo.jpg'),
           tag: "",
         },
         {
           title: 'Forest Three',
           button: 'More',
           bgtext: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam pariatur.',
-          src: require('./components/assets/forestOne.jpg'),
+          src: require('./components/assets/forestThree.jpg'),
           tag: "",
         }
 ])
